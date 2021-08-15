@@ -1,5 +1,5 @@
 # PennAICampProject
-This project is a little toy work of Group 2 as the final project in 2021's Penn AI Summer Camp, which focuses on Egyptian hieroglyphic recognition from images of boards with the characters. 
+This project is a little toy work of Group 2 as the final project in 2021's Penn AI Summer Camp, which focuses on Egyptian hieroglyphic recognition from images of slates with the characters. 
 
 To be more specific, our program consists of two parts, namely the segmentation and classification. 
 The segmentation part is where characters are extracted from the input image. We intended to deal with the task with SOLOv2. However, the SOLOv2 is trained on the COCO dataset, which only covers a small subset of Egyption hieroglyphics. As a result, the program is limited to merely segment characters like birds. Therefore, we implemented an interactive segmentation program to allow users to draw the AOI manually.
